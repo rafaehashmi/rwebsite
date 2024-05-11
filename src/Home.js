@@ -39,23 +39,17 @@ const Home = () => {
                 </p>
             </div>
             <div className="social-links">
-                <a href="https://github.com/AliAhmed2004" aria-label="GitHub">
+                <a href="https://github.com/rafaehashmi" aria-label="GitHub">
                     <FontAwesomeIcon icon={faGithub} />
                 </a>
                 <a
-                    href="https://www.instagram.com/ali_mujtaba.143"
-                    aria-label="Instagram"
-                >
-                    <FontAwesomeIcon icon={faInstagram} />
-                </a>
-                <a
-                    href="https://www.linkedin.com/in/ali-mujtaba-ahmed/"
+                    href="https://www.linkedin.com/in/syed-rafae-hashmi/"
                     aria-label="LinkedIn"
                 >
                     <FontAwesomeIcon icon={faLinkedin} />
                 </a>
                 <a
-                    href={`${process.env.PUBLIC_URL}/ali_s_resume.pdf`}
+                    href={`${process.env.PUBLIC_URL}/srHashmiApril2024.pdf`}
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="Resume"
