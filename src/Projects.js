@@ -12,10 +12,10 @@ const Projects = () => {
             <div className="project-card">
                 <img src={stock} alt="Project Name" className="project-image" />
                 <div className="project-info">
-                    <h3>Twitter Stock Analysis</h3>
-                    <p>A machine learning model used to analyze Twitter stocks</p>
+                    <h3>Machine Learning Price Regression Model</h3>
+                    <p>A machine learning model used to analyze bulldozers</p>
                     <a
-                        href="https://github.com/AliAhmed2004/Twitter-Stock-Analysis--Machine-Learning-Model"
+                        href="https://github.com/rafaehashmi/machineLearningRegressionModel"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
@@ -26,13 +26,12 @@ const Projects = () => {
             <div className="project-card">
                 <img src={ai} alt="Project Name" className="project-image" />
                 <div className="project-info">
-                    <h3>AI Image Generator</h3>
+                    <h3>AI Sudoku Solver</h3>
                     <p>
-                        A project that uses the OpenAI API to generate images of different
-                        prompts the user inputs
+                        blah blah
                     </p>
                     <a
-                        href="https://github.com/AliAhmed2004/ai-image-generator"
+                        href="https://github.com/rafaehashmi/sudokuSolveAI"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
@@ -49,7 +48,7 @@ const Projects = () => {
                         other academically
                     </p>
                     <a
-                        href="https://github.com/abrarmurad416/laurier-student-study-hub"
+                        href="https://github.com/laurier-student-study-hub/laurier-student-study-hub"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
