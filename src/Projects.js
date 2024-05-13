@@ -1,19 +1,41 @@
-
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import stock from "./stock.jpg";
-import ai from "./ai.jpg";
+import stock from "./bulldoze.jpg";
+import ai from "./sudoku.jpg";
 import hub from "./hub.jpg";
 
 const Projects = () => {
     return (
-        <div className="projects-container">
+        <div>
+            <div className="background">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div className="projects-container">
             <div className="project-card">
                 <img src={stock} alt="Project Name" className="project-image" />
                 <div className="project-info">
                     <h3>Machine Learning Price Regression Model</h3>
-                    <p>A machine learning model used to analyze bulldozers</p>
+                    <p>A machine learning model used to analyze bulldozer pricing</p>
                     <a
                         href="https://github.com/rafaehashmi/machineLearningRegressionModel"
                         target="_blank"
@@ -28,7 +50,8 @@ const Projects = () => {
                 <div className="project-info">
                     <h3>AI Sudoku Solver</h3>
                     <p>
-                        blah blah
+                        An AI program that solves Sudoku puzzles using backtracking and
+                        constraint satisfaction algorithms
                     </p>
                     <a
                         href="https://github.com/rafaehashmi/sudokuSolveAI"
@@ -56,7 +79,10 @@ const Projects = () => {
                     </a>
                 </div>
             </div>
+            </div>
         </div>
+
+
     );
 };
 
