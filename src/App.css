@@ -154,6 +154,7 @@ span {
 .project-card {
   background: #ced7e0;
   color: #333;
+  opacity: 80%;
   width: calc((100% / 3) - 40px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
