@@ -32,10 +32,10 @@ const Home = () => {
             </div>
             <div className="content">
                 <h1>
-                    Hi there, I'm <span className="name-gradient">Syed Rafae Hashmi</span>! 👨🏽‍💻
+                    Hi there, I'm <span className="name-gradient">Rafae</span>! 👨🏽‍💻
                 </h1>
                 <p>
-                    Hi there! I'm Rafae, a BSc student in Computer Science with a specialization in Big Data Systems and a minor
+                    I'm a BSc student in Computer Science with a specialization in Big Data Systems and a minor
                     in Data Analytics. Outside of the tech realm, you can find me on the football field or practicing martial
                     arts. I'm particularly passionate about robotics, machine learning, and AI. I'm always eager to explore the
                     latest advancements in these fields. Feel free to reach out on any of my socials or check out my resume
@@ -46,7 +46,7 @@ const Home = () => {
                     <code>Java</code> <code>JavaScript</code> <code>Python</code>
                     <code>HTML</code> <code>CSS</code> <code>SQL</code> <code>R</code>
                     <code>ARMv7</code> <code>Latex</code> <code>VBA</code> <code>C</code> <code>C++</code>
-                    <code>C#</code> <code>MATLAB</code> <code>Maple</code> <code>C#</code>
+                    <code>C#</code> <code>MATLAB</code> <code>Maple</code>
                 </div>
                 <div className="programming-languages">
                     <span>Frameworks I use:</span>
