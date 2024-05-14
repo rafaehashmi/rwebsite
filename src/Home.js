@@ -38,8 +38,7 @@ const Home = () => {
                     I'm a BSc student in Computer Science with a specialization in Big Data Systems and a minor
                     in Data Analytics. Outside of the tech realm, you can find me on the football field or practicing martial
                     arts. I'm particularly passionate about robotics, machine learning, and AI. I'm always eager to explore the
-                    latest advancements in these fields. Feel free to reach out on any of my socials or check out my resume
-                    below!
+                    latest advancements in these fields.
                 </p>
                 <div className="programming-languages">
                     <span>Languages I use:</span>
