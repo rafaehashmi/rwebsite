@@ -4,6 +4,8 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import stock from "./bulldoze.jpg";
 import ai from "./sudoku.jpg";
 import hub from "./hub.jpg";
+import air from "./pollution.jpg";
+import knight from "./knight.jpg";
 
 const Projects = () => {
     return (
@@ -35,7 +37,7 @@ const Projects = () => {
                 <img src={stock} alt="Project Name" className="project-image" />
                 <div className="project-info">
                     <h3>Machine Learning Price Regression Model</h3>
-                    <p>A machine learning model used to analyze bulldozer pricing</p>
+                    <p>A machine learning model used to analyze and predict future bulldozer pricing</p>
                     <a
                         href="https://github.com/rafaehashmi/machineLearningRegressionModel"
                         target="_blank"
@@ -72,6 +74,38 @@ const Projects = () => {
                     </p>
                     <a
                         href="https://github.com/laurier-student-study-hub/laurier-student-study-hub"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <FontAwesomeIcon icon={faGithub} /> GitHub
+                    </a>
+                </div>
+            </div>
+            <div className="project-card">
+                <img src={air} alt="Project Name" className="project-image" />
+                <div className="project-info">
+                    <h3>World Air Quality Data Visualization</h3>
+                    <p>
+                        A Data Analysis and Visualization on the World Air Quality up until March of 2024
+                    </p>
+                    <a
+                        href="https://github.com/onefouroneIndustries/worldAirQualityDataVisualization"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <FontAwesomeIcon icon={faGithub} /> GitHub
+                    </a>
+                </div>
+            </div>
+            <div className="project-card">
+                <img src={knight} alt="Project Name" className="project-image" />
+                <div className="project-info">
+                    <h3>A Knight's Tour</h3>
+                    <p>
+                        insert text here
+                    </p>
+                    <a
+                        href="https://github.com/onefouroneIndustries/KnightsTour"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
