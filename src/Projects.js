@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import bulldoze from "./bulldoze.jpg";
-import ai from "./ai.jpg";
+import sudoku from "./sudoku.jpg";
 import hub from "./hub.jpg";
 import air from "./pollution.jpg";
 import knight from "./knight.jpg";
@@ -25,7 +25,7 @@ const Projects = () => {
                 </div>
             </div>
             <div className="project-card">
-                <img src={ai} alt="Project Name" className="project-image" />
+                <img src={sudoku} alt="Project Name" className="project-image" />
                 <div className="project-info">
                     <h3>AI Sudoku Solver</h3>
                     <p>
