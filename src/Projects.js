@@ -15,7 +15,8 @@ const Projects = () => {
                 <img src={bulldoze} alt="Project Name" className="project-image" />
                 <div className="project-info">
                     <h3>Machine Learning Price Regression Model</h3>
-                    <p>A machine learning model used to analyze and predict future bulldozer pricing</p>
+                    <p>A machine learning model to predict future bulldozer prices using historical
+                        sales data, employing linear regression techniques to establish pricing trends</p>
                     <a
                         href="https://github.com/rafaehashmi/machineLearningRegressionModel"
                         target="_blank"
@@ -30,8 +31,8 @@ const Projects = () => {
                 <div className="project-info">
                     <h3>AI Sudoku Solver</h3>
                     <p>
-                        An AI program that solves Sudoku puzzles using backtracking and
-                        constraint satisfaction algorithms
+                    Developed an interactive AI program that efficiently solves Sudoku puzzles
+                    by leveraging backtracking and constraint satisfaction algorithms
                     </p>
                     <a
                         href="https://github.com/rafaehashmi/sudokuSolveAI"
@@ -47,8 +48,8 @@ const Projects = () => {
                 <div className="project-info">
                     <h3>Laurier Student Study Hub</h3>
                     <p>
-                        A platform for students to connect, collaborate, and support each
-                        other academically
+                    The platform features chat applications, study groups, and resource sharing,
+                    fostering an environment of mutual academic assistance and community
                     </p>
                     <a
                         href="https://github.com/laurier-student-study-hub/laurier-student-study-hub"
@@ -73,7 +74,8 @@ const Projects = () => {
                 <div className="project-info">
                     <h3>World Air Quality Data Visualization</h3>
                     <p>
-                        A Data Analysis and Visualization on the World Air Quality up until March of 2024
+                        Generated detailed reports and dashboards that highlight key findings and recommendations
+                        for improving air quality based on the latest data analysis.
                     </p>
                     <a
                         href="https://github.com/onefouroneIndustries/worldAirQualityDataVisualization"
