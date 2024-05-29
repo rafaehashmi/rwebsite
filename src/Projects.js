@@ -1,40 +1,18 @@
-import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import stock from "./bulldoze.jpg";
-import ai from "./sudoku.jpg";
+import { faLaptopCode } from "@fortawesome/free-solid-svg-icons";
+import bulldoze from "./bulldoze.jpg";
+import ai from "./ai.jpg";
 import hub from "./hub.jpg";
 import air from "./pollution.jpg";
 import knight from "./knight.jpg";
 
 const Projects = () => {
     return (
-        <div>
-            <div className="background">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div className="projects-container">
+
+        <div className="projects-container">
             <div className="project-card">
-                <img src={stock} alt="Project Name" className="project-image" />
+                <img src={bulldoze} alt="Project Name" className="project-image" />
                 <div className="project-info">
                     <h3>Machine Learning Price Regression Model</h3>
                     <p>A machine learning model used to analyze and predict future bulldozer pricing</p>
@@ -113,10 +91,32 @@ const Projects = () => {
                     </a>
                 </div>
             </div>
+            <div className="background">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
         </div>
 
 
+        
     );
 };
 
