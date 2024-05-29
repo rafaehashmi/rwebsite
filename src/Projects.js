@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faLaptopCode } from "@fortawesome/free-solid-svg-icons";
 import bulldoze from "./bulldoze.jpg";
 import sudoku from "./sudoku.jpg";
 import hub from "./hub.jpg";
@@ -56,6 +57,15 @@ const Projects = () => {
                     >
                         <FontAwesomeIcon icon={faGithub} /> GitHub
                     </a>
+                    <a
+                        href="https://lsshub.netlify.app/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="project-link"
+                    >
+                        <FontAwesomeIcon icon={faLaptopCode} /> Demo
+                    </a>
+
                 </div>
             </div>
             <div className="project-card">
@@ -79,7 +89,8 @@ const Projects = () => {
                 <div className="project-info">
                     <h3>A Knight's Tour</h3>
                     <p>
-                        insert text here
+                        The Knights Tour program features a user-friendly interface that allows you
+                        to select from various algorithms to solve the classic Knights Tour problem
                     </p>
                     <a
                         href="https://github.com/onefouroneIndustries/KnightsTour"
@@ -88,6 +99,15 @@ const Projects = () => {
                     >
                         <FontAwesomeIcon icon={faGithub} /> GitHub
                     </a>
+                    <a
+                        href="https://aknightstour.netlify.app/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="project-link"
+                    >
+                        <FontAwesomeIcon icon={faLaptopCode} /> Demo
+                    </a>
+
                 </div>
             </div>
             <div className="background">
@@ -115,7 +135,7 @@ const Projects = () => {
         </div>
 
 
-        
+
     );
 };
 

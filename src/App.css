@@ -188,6 +188,10 @@ span {
   margin-top: 0;
 }
 
+.project-link {
+  margin: 12px;
+}
+
 .project-info a {
   display: inline-flex;
   align-items: center;

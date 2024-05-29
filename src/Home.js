@@ -32,26 +32,34 @@ const Home = () => {
                 <span></span>
             </div>
             <div className="content">
-                <h1>
+                <h1 style={{ fontSize: "2.5em" }}>
                     Hi there, I'm <span className="name-gradient">Rafae</span>! 👨🏽‍💻
                 </h1>
-                <p>
-                    I'm a BSc student in Computer Science with a specialization in Big Data Systems and a minor
-                    in Data Analytics. Outside of the tech realm, you can find me on the football field or practicing martial
-                    arts. I'm particularly passionate about robotics, machine learning, and AI. I'm always eager to explore the
-                    latest advancements in these fields.
+                <p style={{ fontSize: "1.2em" }}>
+                    I'm a BSc student in Computer Science, specializing in Big Data Systems with a minor in Data Analytics. 
+                    Fluent in both French and English, I have a passion for robotics, machine learning, AI and data analytics;
+                    I’m always eager to explore the latest advancements in these fields.
+                    When I'm not diving into tech, you can find me on the football field or practicing martial arts. 
+                    Welcome to my portfolio!
                 </p>
                 <div className="programming-languages">
-                    <span>Languages I use:</span>
+                    <span>Languages/Frameworks/Libraries I use:</span>
                     <code>Java</code> <code>JavaScript</code> <code>Python</code>
                     <code>HTML</code> <code>CSS</code> <code>SQL</code> <code>R</code>
-                    <code>ARMv7</code> <code>Latex</code> <code>VBA</code> <code>C</code> <code>C++</code>
-                    <code>C#</code> <code>MATLAB</code> <code>Maple</code>
+                    <code>C</code> <code>C++</code> <code>VBA</code>
+                    <code>matplotlib</code> <code>NumPy</code> <code>Pandas</code>
+                    <code>seaborn</code> <code>SciKit Learn</code> <code>TensorFlow</code>
+                    <code>React</code> <code>Visual Basic Analysis (VBA)</code>
                 </div>
                 <div className="programming-languages">
-                    <span>Frameworks I use:</span>
-                    <code>Node.js</code> <code>MongoDB</code> <code>React</code>
-                    <code>Bootstrap</code> <code>Express</code> <code>Tailwind CSS</code>
+                    <span>Technologies I use:</span>
+                    <code>AutoCAD</code> <code>alteryx</code> <code>Confluence</code>
+                    <code>Fusion 360</code> <code>Git</code> <code>GitHub</code>
+                    <code>Jira</code> <code>Jupyter</code> <code>Linux</code>
+                    <code>Power BI</code> <code>Microsoft Office</code> <code>MySQL</code>
+                    <code>Node.js</code> <code>SOLIDWORKS</code> <code>Tableau</code>
+                    <code>Windows</code>
+
                 </div>
                 <div className="certifications">
                     <span> </span>
@@ -82,8 +90,6 @@ const Home = () => {
                 </div>
             </div>
         </div>
-
-
     );
 };
 
