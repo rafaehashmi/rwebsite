@@ -36,20 +36,19 @@ const Home = () => {
                     Hi there, I'm <span className="name-gradient">Rafae</span>! 👨🏽‍💻
                 </h1>
                 <p style={{ fontSize: "1.2em" }}>
-                    I'm a BSc student in Computer Science, specializing in Big Data Systems with a minor in Data Analytics. 
+                    I'm a BSc student in Computer Science, specializing in Big Data Systems with a minor in Data Analytics.
                     Fluent in both French and English, I have a passion for robotics, machine learning, AI and data analytics;
                     I’m always eager to explore the latest advancements in these fields.
-                    When I'm not diving into tech, you can find me on the football field or practicing martial arts. 
+                    When I'm not diving into tech, you can find me on the football field or practicing martial arts.
                     Welcome to my portfolio!
                 </p>
                 <div className="programming-languages">
                     <span>Languages/Frameworks/Libraries I use:</span>
                     <code>Java</code> <code>JavaScript</code> <code>Python</code>
                     <code>HTML</code> <code>CSS</code> <code>SQL</code> <code>R</code>
-                    <code>C</code> <code>C++</code> <code>VBA</code>
-                    <code>matplotlib</code> <code>NumPy</code> <code>Pandas</code>
-                    <code>seaborn</code> <code>SciKit Learn</code> <code>TensorFlow</code>
-                    <code>React</code> <code>Visual Basic Analysis (VBA)</code>
+                    <code>C</code> <code>C++</code> <code>matplotlib</code> <code>NumPy</code>
+                    <code>Pandas</code> <code>seaborn</code> <code>SciKit Learn</code>
+                    <code>TensorFlow</code> <code>React</code> <code>Visual Basic for Applications (VBA)</code>
                 </div>
                 <div className="programming-languages">
                     <span>Technologies I use:</span>
