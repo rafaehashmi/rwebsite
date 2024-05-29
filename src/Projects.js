@@ -1,6 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faLaptopCode } from "@fortawesome/free-solid-svg-icons";
 import bulldoze from "./bulldoze.jpg";
 import ai from "./ai.jpg";
 import hub from "./hub.jpg";
