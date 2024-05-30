@@ -95,7 +95,7 @@ const Projects = () => {
                         to select from various algorithms to solve the classic Knights Tour problem
                     </p>
                     <a
-                        href="https://github.com/onefouroneIndustries/KnightsTour"
+                        href="https://github.com/onefouroneIndustries/aKnightsTour"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
