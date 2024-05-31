@@ -43,50 +43,47 @@ const Home = () => {
                     Welcome to my portfolio!
                 </p>
                 <div className="programming-languages">
-                    <span>Languages/Frameworks/Libraries I use:</span>
-                    <code>Java</code> <code>JavaScript</code> <code>Python</code>
-                    <code>HTML</code> <code>CSS</code> <code>SQL</code> <code>R</code>
-                    <code>C</code> <code>C++</code> <code>matplotlib</code> <code>NumPy</code>
-                    <code>Pandas</code> <code>seaborn</code> <code>SciKit Learn</code>
-                    <code>TensorFlow</code> <code>React</code> <code>Visual Basic for Applications (VBA)</code>
+                    <span>Languages I use:</span>
+                    <code>C</code> <code>C++</code> <code>CSS</code>
+                    <code>HTML</code> <code>Java</code> <code>JavaScript</code>
+                    <code>LaTeX</code> <code>Python</code> <code>R</code>
+                    <code>SQL</code> <code>Visual Basic for Applications (VBA)</code>
                 </div>
                 <div className="programming-languages">
-                    <span>Technologies I use:</span>
-                    <code>AutoCAD</code> <code>alteryx</code> <code>Confluence</code>
-                    <code>Fusion 360</code> <code>Git</code> <code>GitHub</code>
-                    <code>Jira</code> <code>Jupyter</code> <code>Linux</code>
-                    <code>Power BI</code> <code>Microsoft Office</code> <code>MySQL</code>
-                    <code>Node.js</code> <code>SOLIDWORKS</code> <code>Tableau</code>
-                    <code>Windows</code>
+                    <span>Frameworks I use:</span>
+                    <code>Angular</code> <code>Bootstrap</code> <code>Next.js</code>
+                    <code>Node.js</code> <code>React Native</code> <code>TensorFlow</code>
+                </div>
+                <div className="programming-languages">
+                    <span>Cloud/Databases I use:</span>
+                    <code>AWS</code> <code>Azure</code> <code>Firebase</code>
+                    <code>MongoDB</code> <code>MySQL</code>
+                </div>
 
-                </div>
-                <div className="certifications">
-                    <span> </span>
+            </div>
 
-                    <p className="outreach-message">
-                        Feel free to reach out through my social media or take a look at my
-                        resume below!
-                    </p>
-                </div>
-                <div className="social-links">
-                    <a href="https://github.com/rafaehashmi" aria-label="GitHub">
-                        <FontAwesomeIcon icon={faGithub} />
-                    </a>
-                    <a
-                        href="https://www.linkedin.com/in/syed-rafae-hashmi/"
-                        aria-label="LinkedIn"
-                    >
-                        <FontAwesomeIcon icon={faLinkedin} />
-                    </a>
-                    <a
-                        href={`${process.env.PUBLIC_URL}/srHashmiRM3.pdf`}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        aria-label="Resume"
-                    >
-                        <FontAwesomeIcon icon={faFile} />
-                    </a>
-                </div>
+            <p className="outreach-message">
+                Feel free to reach out through my social media or take a look at my
+                resume below!
+            </p>
+            <div className="social-links">
+                <a href="https://github.com/rafaehashmi" aria-label="GitHub">
+                    <FontAwesomeIcon icon={faGithub} />
+                </a>
+                <a
+                    href="https://www.linkedin.com/in/syed-rafae-hashmi/"
+                    aria-label="LinkedIn"
+                >
+                    <FontAwesomeIcon icon={faLinkedin} />
+                </a>
+                <a
+                    href={`${process.env.PUBLIC_URL}/srHashmiRM4.pdf`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Resume"
+                >
+                    <FontAwesomeIcon icon={faFile} />
+                </a>
             </div>
         </div>
     );

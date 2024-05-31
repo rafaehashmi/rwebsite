@@ -269,10 +269,13 @@ span {
   .certifications a,
   .programming-languages code {
     font-size: 0.8rem;
+    text-align: center;
   }
 
   .outreach-message {
     padding-top: 20px;
+    text-align: center;
+    
   }
 
   .project-card {
@@ -774,3 +777,5 @@ h1 {
     font-size: 0.85rem;
   }
 }
+
+
