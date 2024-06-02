@@ -39,15 +39,14 @@ const Home = () => {
                     I'm a BSc student in Computer Science, specializing in Big Data Systems with a minor in Data Analytics.
                     Fluent in both French and English, I have a passion for robotics, machine learning, AI and data analytics;
                     I’m always eager to explore the latest advancements in these fields.
-                    When I'm not diving into tech, you can find me on the football field or practicing martial arts.
-                    Welcome to my portfolio!
+                    When I'm not diving into work, you can find me on the football field or in the gym.
                 </p>
                 <div className="programming-languages">
                     <span>Languages I use:</span>
                     <code>C</code> <code>C++</code> <code>CSS</code>
                     <code>HTML</code> <code>Java</code> <code>JavaScript</code>
                     <code>LaTeX</code> <code>Python</code> <code>R</code>
-                    <code>SQL</code> <code>Visual Basic for Applications (VBA)</code>
+                    <code>SQL</code> <code>VBA</code>
                 </div>
                 <div className="programming-languages">
                     <span>Frameworks I use:</span>
