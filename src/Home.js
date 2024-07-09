@@ -45,13 +45,11 @@ const Home = () => {
                     <span>Languages I use:</span>
                     <code>C</code> <code>C++</code> <code>CSS</code>
                     <code>HTML</code> <code>Java</code> <code>JavaScript</code>
-                    <code>LaTeX</code> <code>Python</code> <code>R</code>
-                    <code>SQL</code> <code>VBA</code>
+                    <code>Python</code> <code>R</code> <code>SQL</code>
                 </div>
                 <div className="programming-languages">
                     <span>Frameworks I use:</span>
-                    <code>Angular</code> <code>Bootstrap</code> <code>Next.js</code>
-                    <code>Node.js</code> <code>React Native</code> <code>TensorFlow</code>
+                    <code>Angular</code> <code>Node.js</code> <code>TensorFlow</code>
                 </div>
                 <div className="programming-languages">
                     <span>Cloud/Databases I use:</span>
@@ -76,7 +74,7 @@ const Home = () => {
                     <FontAwesomeIcon icon={faLinkedin} />
                 </a>
                 <a
-                    href={`${process.env.PUBLIC_URL}/srHashmiRM7.pdf`}
+                    href={`${process.env.PUBLIC_URL}/srHashmiRM8.pdf`}
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="Resume"
