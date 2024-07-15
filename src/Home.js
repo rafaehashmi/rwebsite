@@ -74,7 +74,7 @@ const Home = () => {
                     <FontAwesomeIcon icon={faLinkedin} />
                 </a>
                 <a
-                    href={`${process.env.PUBLIC_URL}/srHashmiRM8.pdf`}
+                    href={`${process.env.PUBLIC_URL}/srHashmiRM9.pdf`}
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="Resume"
